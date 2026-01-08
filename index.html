@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title> senbagarajkowsalya Input Design </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2> Different  sk Input Design </h2>
+
+<div class="container">
+
+    <div class="input-group">
+        <label>Square Corner Input</label>
+        <input type="text" class="square-input" placeholder="Square input">
+    </div>
+
+   
+    <div class="input-group">
+        <label>Rounded Corner Input</label>
+        <input type="text" class="rounded-input" placeholder="Rounded input">
+    </div>
+
+    
+    <div class="input-group">
+        <label>Placeholder Styled Input</label>
+        <input type="text" class="placeholder-input" placeholder="Enter your name">
+    </div>
+
+    <div class="input-group">
+        <label>Input with Icon Inside</label>
+        <div class="icon-input-wrapper">
+            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" alt="icon">
+            <input type="text" class="icon-input" placeholder="Username">
+        </div>
+    </div>
+
+    <div class="input-group floating-group">
+        <input type="text" required placeholder=" ">
+        <label>Email Address</label>
+    </div>
+    
+    <div class="input-group">
+        <label>Underline Style Input</label>
+        <input type="text" class="underline-input" placeholder="Only underline">
+    </div>
+
+    
+    <div class="input-group">
+        <label>Password Input (Show / Hide)</label>
+        <div class="password-wrapper">
+            <input type="password" id="password" class="placeholder-input" placeholder="Enter password">
+            <button type="button" onclick="togglePassword()">Show</button>
+        </div>
+    </div>
+    <div class="input-group">
+        <label>Disabled Input</label>
+        <input type="text" class="disabled-input" value="Cannot edit" disabled>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

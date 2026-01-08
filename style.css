@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    padding: 30px;
+    padding-left: 50px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 500px;
+    background:light rgb(193, 193, 63);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+
+.square-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #c42e2e;
+    border-radius: 0;
+}
+
+
+.rounded-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+.placeholder-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #9d2464;
+}
+
+.placeholder-input::placeholder {
+    color: #4a9936;
+    font-style: italic;
+}
+
+
+.icon-input-wrapper {
+    position: relative;
+}
+
+.icon-input-wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    width: 20px;
+}
+
+.icon-input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+
+.floating-group {
+    position: relative;
+}
+
+.floating-group input {
+    width: 100%;
+    padding: 12px 10px;
+    border: 1px solid #666;
+    outline: none;
+}
+
+.floating-group label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: #760808;
+    font-size: 14px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.3s;
+    background: #54c159;
+    padding: 0 5px;
+}
+.underline-input {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    border-bottom: 2px solid #444;
+    background: transparent;
+    outline: none;
+}
+
+.password-wrapper {
+    position: relative;
+}
+
+.password-wrapper button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.disabled-input {
+    width: 100%;
+    padding: 10px;
+    background: #beafaf;
+    border: 1px solid #aaa;
+}
